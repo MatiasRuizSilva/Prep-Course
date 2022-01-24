@@ -28,11 +28,40 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
   left: 200;
 }
 /* Ejercicio 4: */
-
+#ejercicioCuatro {
+  position: fixed;
+  top: 0;
+}
 /* Acá va tu código */
 
 /* Ejercicio 5: */
-
+#ejercicioCinco {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 /* Acá va tu código */
 
 /* Ejercicio 6. */
+/* .soyhenry {
+  order: 3;
+}
+#leccion {
+  order: ; */
+
+#ejercicioCinco {
+  flex-direction: row-reverse;
+}
+
+#ejercicioSiete {
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+}
+#elementoUno {
+  position: fixed;
+  bottom: 0px;
+}
+#elementoDos {
+  align-self: flex-end;
+}
