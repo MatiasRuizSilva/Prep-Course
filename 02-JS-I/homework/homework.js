@@ -224,9 +224,10 @@ function deEuroAdolar(euro) {
   //Supongamos que 1 euro equivale a 1.20 dólares. Escribe un programa que reciba
   //como parámetro un número de euros y calcule el cambio en dólares.
   //Escribe tu código aquí
-  var num = euro;
-  var dolar = 1;
-  if (num) return (euro = dolar + 0.2);
+  // var num = euro;
+  // var dolar = 1;
+  // if (num) return (euro = dolar + 0.2);
+  return euro * 1.20; 
 }
 
 function esVocal(letra) {
@@ -235,6 +236,19 @@ function esVocal(letra) {
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
+  if (letra = "a"){
+   return "Es vocal"
+  } else if (letra = "e"){
+    return "Es vocal"
+  } else if (letra = "i"){
+    return "Es vocal"
+  } else if (letra = "o"){
+    return "Es vocal"
+  } else if (letra = "u"){
+    return "Es vocal"
+  } else {
+    return "Dato incorrecto"
+}
 }
 
 // No modificar nada debajo de esta línea
