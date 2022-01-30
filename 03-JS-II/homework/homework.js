@@ -77,19 +77,16 @@ function colors(color) {
   // } else {
   //   return "Color not found";
   // }
+  debugger;
   switch (color) {
     case "blue":
       return "This is blue";
-      break;
     case "red":
       return "This is red";
-      break;
     case "green":
       return "This is green";
-      break;
     case "orange":
       return "This is orange";
-      break;
     default:
       return "Color not found";
   }
@@ -189,11 +186,28 @@ function tablaDelSeis() {
   //Escribe una función que muestre la tabla de multiplicar del 6 (del 0 al 60).
   //La función devuelve un array con los resultados de la tabla de multiplicar del 6 en orden creciente.
   //Escribe tu código aquí
+  // let result = "";
+  // let i = 0
+
+  // for (var j = 1; j <= 60; j + 6) {
+  //   console.log(j);
+  // }
+  // return;
+  let i = 6;
+  let result = 0;
+  do {
+    i = i + 6;
+    result = result + i;
+  } while (i <= 60);
 }
 
 function tieneTresDigitos(numero) {
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
+  // if (numero == ) {
+  //   return true
+  // } else {
+  //   return false
 }
 
 function doWhile(numero) {
